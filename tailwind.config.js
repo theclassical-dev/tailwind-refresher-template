@@ -4,7 +4,15 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "t-puprle": "#5267DF",
+        "t-red": "FA5959",
+        "t-blue": "#243A45",
+        "t-gray": "#9194A2",
+        "t-white": "#f7f7f7",
+      },
+    },
     fontFamily: {
       Poppins: ["Poppins, sans-serif"],
     },
