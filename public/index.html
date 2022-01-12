@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css" />
     <title>First Tailwind Project</title>
 </head>
 <body class="font-Poppins">
-    <nav class="container">
-        <h1>hello</h1>
-    <nav>
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+            <div class="py-1"><img src="./imgs/01.svg" /></div>
+                <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-t-blue uppercase text-xs">
+                <li class="cursor-pointer">Features</li>
+                <li class="cursor-pointer">Premium</li>
+                <li class="cursor-pointer">Contact Us</li>
+                <button type="button" class="bg-t-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+            </ul>
+            <div class="flex sm:hidden flex-1 justify-end">
+                <i class="text-2xl fas fa-bars"></i>
+            </div>
+        <nav>
+    </header>
+
+    <section class="realtive">
+        <div class="container flex-col-reverse lg:flex-row-reverse items-center gap-12 mt-14 lg:mt-28">
+            <!-- content -->
+            <div class="flex flex-1 item-center lg:items-start">
+                <h2 class="text-t-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">A simple Mark</h2>
+                <p class="text-t-gray text-lg text-center lg:text-left mb-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. 
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
